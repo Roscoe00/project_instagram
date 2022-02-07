@@ -1,10 +1,10 @@
 import React from 'react';
-import HomeLogo from "../../Assets/data/images/home-logo.svg";
-import Plane from "../../Assets/data/images/paper-plane.svg";
-import Plus from "../../Assets/data/images/plus-square.svg";
-import Compass from "../../Assets/data/images/compass-logo.svg";
-import Heart from "../../Assets/data/images/heart-logo.svg";
-import UserCircle from "../../Assets/data/images/user-circle.svg";
+import HomeLogo from "../../Assets/images/home-logo.svg";
+import Plane from "../../Assets/images/paper-plane.svg";
+import Plus from "../../Assets/images/plus-square.svg";
+import Compass from "../../Assets/images/compass-logo.svg";
+import Heart from "../../Assets/images/heart-logo.svg";
+import UserCircle from "../../Assets/images/user-circle.svg";
 
 import "./Navbar.scss";
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Profile.scss";
 
-import CheckLogo from "../../Assets/data/images/check-logo.svg"
-import UserCircle from "../../Assets/data/images/user-circle.svg";
-import ElipsisIcon from "../../Assets/data/images/ellipsis-icon.svg";
-import ChevronDown from "../../Assets/data/images/chevron-down.svg";
+import CheckLogo from "../../Assets/images/check-logo.svg"
+import UserCircle from "../../Assets/images/user-circle.svg";
+import ElipsisIcon from "../../Assets/images/ellipsis-icon.svg";
+import ChevronDown from "../../Assets/images/chevron-down.svg";
 
 
 const Profile = () => {
@@ -15,7 +15,6 @@ const Profile = () => {
       <img className='profile__icon' src={ElipsisIcon} alt="" />
       <button className='profile__button-follow'>Follow</button>
       <button><img className='profile__icon' src={ChevronDown} alt="" /></button>
-
    </div>;
 };
 
