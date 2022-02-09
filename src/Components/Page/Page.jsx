@@ -3,11 +3,12 @@ import Description from '../../Components/Description/Description';
 import Profile from '../../Components/Profile/Profile';
 import ProfileInfo from '../../Components/ProfileInfo/ProfileInfo';
 
-function Page() {
+const Page = (props) => {
+   const { description, userName } = props;
    return (
       <div className="Page">
          <Profile />
-         <Description />
+         <Description description={description} userName={userName} />
          <ProfileInfo />
       </div>
    );
