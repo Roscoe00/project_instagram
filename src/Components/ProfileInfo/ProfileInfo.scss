@@ -1,0 +1,10 @@
+.profileInfo {
+   display: flex;
+   justify-content: space-evenly;
+   text-align: center;
+   border: 0.2rem solid black;
+
+   &__heading {
+      width: 30vw;
+   }
+}
